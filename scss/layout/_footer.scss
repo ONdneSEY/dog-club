@@ -6,21 +6,41 @@
   &::before {
     content: "";
     background-image: url(../../image/img/dogFooter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 128px;
     height: 145px;
     position: absolute;
-    top: -123px;
+    top: -112px;
     left: 50%;
     transform: translate(-50%, 0%);
+
+    @media screen and (min-width: $lg) {
+      width: 292px;
+      height: 305px;
+      left: auto;
+      right: 5%;
+      transform: none;
+      top: auto;
+      bottom: -45px;
+    }
   }
 
   &__container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
     align-items: center;
+    justify-items: center;
     gap: 24px;
     width: 100%;
+
+    @media screen and (min-width: $md) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media screen and (min-width: $lg) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
 
   &__list {
@@ -67,6 +87,7 @@
 
   &__texterea {
     width: 100%;
+    min-width: 100%;
     max-width: 600px;
     padding: 12px 25px 12px 25px;
   }
