@@ -1,0 +1,23 @@
+:root {
+  --primary-white: #ffffff;
+  --primary-orange: #ff9f0e;
+  --primary-dark: #181817;
+
+  --secondary-orange: #fcb62a;
+  --secondary-creamy-white: #fffaf3;
+  --secondary-light-blue: #f1f3ff;
+  --secondary-grey-blue: #839aa9;
+  --secondary-blue-violet: #f9f9ff;
+  --secondary-purple: #d9a6ff;
+
+  --shadow-efect-1: 0px 4px 4px 0px rgba(24, 24, 23, 0.05);
+  --shadow-efect-2: 0px 8px 16px 0px rgba(24, 24, 23, 0.08);
+  --shadow-efect-3: 0px 0px 8px 0px rgba(24, 24, 23, 0.08);
+}
+
+$xs: 320px; // Extra small (малі смартфони)
+$sm: 640px; // Small (смартфони)
+$md: 768px; // Medium (планшети)
+$lg: 1024px; // Large (ноутбуки / малі десктопи)
+$xl: 1440px; // Extra large (стандартні десктопи)
+$xxl: 1536px; // 2X Extra large (широкоформатні монітори)

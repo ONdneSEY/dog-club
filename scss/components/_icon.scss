@@ -1,0 +1,52 @@
+.logo {
+  &__icon {
+    width: 92px;
+    height: 20px;
+    fill: var(--primary-orange);
+
+    @media screen and (min-width: $lg) {
+      width: 182px;
+      height: 43px;
+    }
+  }
+}
+
+.shopping-cart {
+  fill: var(--primary-orange);
+  width: 24px;
+  height: 24px;
+
+  @media screen and (min-width: $lg) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.burger {
+  fill: var(--primary-orange);
+  background-color: transparent;
+  width: 20px;
+  height: 14px;
+}
+
+.icon__close {
+  width: 12px;
+  height: 12px;
+}
+
+.social-media-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--primary-orange);
+}
+
+.icon-person {
+  width: 16px;
+  height: 20px;
+  fill: var(--primary-orange);
+
+  @media screen and (min-width: $md) {
+    width: 21px;
+    height: 26px;
+  }
+}

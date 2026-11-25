@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/main.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__conteiner">
+                <a href="#" class="logo">
+                    <svg class="logo__icon">
+                        <use href="./image/icon/icon.svg#icon-logo"></use>
+                    </svg>
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a class="link" href="#">Less talk</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="link" href="#">category</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="link" href="#">Happy customer</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__button-menu">
+                    <button class="button__shopping-cart" type="button">
+                        <svg class="shopping-cart">
+                            <use href="./image/icon/icon.svg#icon-shopping-cart"></use>
+                        </svg>
+                    </button>
+                    <button class="button__main  header__contact-btn" type="submit">Contact
+                        us</button>
+                    <button class="button__burger header__burger menu-btn-open" type="button">
+                        <svg class="burger">
+                            <use href="./image/icon/icon.svg#icon-burger"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+    </header>
+    <div class="modile-menu is-hidden">
+        <div class="modile-menu__top">
+            <a href="#" class="logo">
+                <svg class="logo__icon">
+                    <use href="./image/icon/icon.svg#icon-logo"></use>
+                </svg>
+            </a>
+            <button class="modile-menu__close menu-btn-close" type="button">
+                <svg class="icon__close">
+                    <use href="./image/icon/icon.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+        <nav>
+            <ul class="modile-menu__list">
+                <li class="modile-menu__item">
+                    <a class="link" href="#">Less talk</a>
+                </li>
+                <li class="modile-menu__item">
+                    <a class="link" href="#">category</a>
+                </li>
+                <li class="modile-menu__item">
+                    <a class="link" href="#">Happy customer</a>
+                </li>
+                <li class="modile-menu__item">
+                    <a class="link" href="#">Contact</a>
+                </li>
+            </ul>
+
+            <div class="social-media">
+                <svg class="social-media-icon">
+                    <use href="./image/icon/icon.svg#icon-instagram"></use>
+                </svg>
+                <svg class="social-media-icon">
+                    <use href="./image/icon/icon.svg#icon-facebook"></use>
+                </svg>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <section class="hero" id="hero-section">
+            <div class="container">
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <h1 class="hero__title section__title">Taking care for your Smart Dog!</h1>
+                        <p class="hero__text">Human–canine bonding is the relationship between dogs and humans</p>
+                        <button class="button__main button__main--primary hero__button" type="button">Explore
+                            More</button>
+                    </div>
+
+                    <div class="hero__img-wrap">
+                        <img class="hero__img" src="./image/img/dog.jpg"
+                            alt="зображеня радісного чорного собаки з білим брюхом на оранфовому фоні ">
+                    </div>
+                </div>
+        </section>
+
+        <section class="call" id="call-section">
+            <div class="container">
+                <div class="call__container">
+
+                    <img class="call__image" src="./image/img/bog2.png"
+                        alt="собака з рижо-чорним хутром і білим хутром, лижить">
+                    <div class="call__text-container">
+                        <h2 class="call__title section__title">Less talk
+                            and more walk</h2>
+                        <p class="call__text">
+                            Sometimes our career, lifestyle, or routines can make it difficult to provide your pet with
+                            the recommended amount of
+                            exercise that they need. Which is why, it’s okay to use an extra hand in walking dogs so
+                            they are in perfect shape,
+                            mentally and physically.
+                        </p>
+                        <button class="button__main button__main" type="button">Explore More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services-section">
+            <div class="container">
+                <h2 class="section__title section__title--center">Services category</h2>
+                <div class="services__container">
+                    <ul class="services__list">
+                        <li class="services__item">
+                            <article class="category-cart">
+                                <img class="category-cart__img" src="./image/img/category.jpg" alt="">
+                                <span class="category-cart__title">Nutrition</span>
+                            </article>
+                        </li>
+                        <li class="services-category__item">
+                            <article class="category-cart">
+                                <img class="category-cart__img" src="./image/img/category.jpg" alt="">
+                                <span class="category-cart__title">Nutrition</span>
+                            </article>
+                        </li>
+                        <li class="services-category__item">
+                            <article class="category-cart">
+                                <img class="category-cart__img" src="./image/img/category.jpg" alt="">
+                                <span class="category-cart__title">Nutrition</span>
+                            </article>
+                        </li>
+                        <li class="services-category__item">
+                            <article class="category-cart">
+                                <img class="category-cart__img" src="./image/img/category.jpg" alt="">
+                                <span class="category-cart__title">Nutrition</span>
+                            </article>
+                        </li>
+                    </ul>
+                    <button class="services__button button__more" type="button">more services
+                        <img class="button__more__icon-arrow" src="./image/icon/Arrow_long.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews-section">
+            <div class="container">
+                <h2 class="section__title section__title--center">Happy customer</h2>
+
+                <div class="reviews__slider ">
+                    <button class="reviews__button button__slider button__slider left" type="button">
+                        <svg class="button__slider__arrow">
+                            <use href="./image/icon/icon.svg#icon-Arrow"></use>
+                        </svg>
+                    </button>
+                    <div class="reviews__container swiper-container">
+                        <ul class="reviews__list swiper-wrapper">
+                            <li class="reviews__item swiper-slide">
+                                <article class="reviews-cart">
+                                    <img class="reviews-cart__img" src="./image/img/reviwe.png" alt="">
+                                    <div class="reviews-cart__content">
+                                        <h5 class="reviews-cart__title">Christin & Tom</h5>
+                                        <p class="reviews-cart__text">Love the overall workout experience!</p>
+                                        <div class="reviews-cart__rating">
+                                            <div class="reviews-cart__star-container">
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                            </div>
+                                            <p class="reviews-cart__mark">5/5</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="reviews__item swiper-slide">
+                                <article class="reviews-cart">
+                                    <img class="reviews-cart__img" src="./image/img/reviwe.png" alt="">
+                                    <div class="reviews-cart__content">
+                                        <h5 class="reviews-cart__title">Christin & Tom</h5>
+                                        <p class="reviews-cart__text">Love the overall workout experience!</p>
+                                        <div class="reviews-cart__rating">
+                                            <div class="reviews-cart__star-container">
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                            </div>
+                                            <p class="reviews-cart__mark">5/5</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="reviews__item swiper-slide">
+                                <article class="reviews-cart">
+                                    <img class="reviews-cart__img" src="./image/img/reviwe.png" alt="">
+                                    <div class="reviews-cart__content">
+                                        <h5 class="reviews-cart__title">Christin & Tom</h5>
+                                        <p class="reviews-cart__text">Love the overall workout experience!</p>
+                                        <div class="reviews-cart__rating">
+                                            <div class="reviews-cart__star-container">
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                            </div>
+                                            <p class="reviews-cart__mark">5/5</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="reviews__item swiper-slide">
+                                <article class="reviews-cart">
+                                    <img class="reviews-cart__img" src="./image/img/reviwe.png" alt="">
+                                    <div class="reviews-cart__content">
+                                        <h5 class="reviews-cart__title">Christin & Tom</h5>
+                                        <p class="reviews-cart__text">Love the overall workout experience!</p>
+                                        <div class="reviews-cart__rating">
+                                            <div class="reviews-cart__star-container">
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                            </div>
+                                            <p class="reviews-cart__mark">5/5</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="reviews__item swiper-slide">
+                                <article class="reviews-cart">
+                                    <img class="reviews-cart__img" src="./image/img/reviwe.png" alt="">
+                                    <div class="reviews-cart__content">
+                                        <h5 class="reviews-cart__title">Christin & Tom</h5>
+                                        <p class="reviews-cart__text">Love the overall workout experience!</p>
+                                        <div class="reviews-cart__rating">
+                                            <div class="reviews-cart__star-container">
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg><svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                            </div>
+                                            <p class="reviews-cart__mark">5/5</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="reviews__item swiper-slide">
+                                <article class="reviews-cart">
+                                    <img class="reviews-cart__img" src="./image/img/reviwe.png" alt="">
+                                    <div class="reviews-cart__content">
+                                        <h5 class="reviews-cart__title">Christin & Tom</h5>
+                                        <p class="reviews-cart__text">Love the overall workout experience!</p>
+                                        <div class="reviews-cart__rating">
+                                            <div class="reviews-cart__star-container">
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                                <svg class="reviews-cart__star">
+                                                    <use href="./image/icon/icon.svg#icon-star"></use>
+                                                </svg>
+                                            </div>
+                                            <p class="reviews-cart__mark">5/5</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+
+                        <div class="pagination">
+                            <span class="pagination__button"></span>
+                            <span class="pagination__button"></span>
+                            <span class="pagination__button"></span>
+                            <span class="pagination__button"></span>
+                        </div>
+                    </div>
+                    <button class="reviews__button button__slider button__slider--right right" type="button">
+                        <svg class="button__slider__arrow">
+                            <use href="./image/icon/icon.svg#icon-Arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact-section">
+            <div class="container">
+                <div class="contact__container">
+                    <h2 class="contact__title section__title section__title--center">Our experts will take care of your
+                        friend</h2>
+                    <p class="contact__text">
+                        Fill out the form so we can contact you!
+                    </p>
+                    <form class="contact-form" action="contact">
+                        <div class="contact-form__item">
+                            <label class="contact-form__ladel" for="name-user">
+                                <svg class="icon-person">
+                                    <use href="./image/icon/icon.svg#icon-person"></use>
+                                </svg>
+                            </label>
+                            <input class="contact-form__input" type="text" name="name-user" id="name-user"
+                                placeholder="Your name" minlength="3" required>
+                        </div>
+                        <div class="contact-form__item">
+                            <label class="contact-form__ladel" for="name-pet">
+                                <svg class="icon-person">
+                                    <use href="./image/icon/icon.svg#icon-dog"></use>
+                                </svg>
+                            </label>
+                            <input class="contact-form__input" type="text" name="name-pet" id="name-pet"
+                                placeholder="Pet name" required>
+                        </div>
+                        <div class="contact-form__item">
+                            <label class="contact-form__ladel" for="tel">
+                                <svg class="icon-person">
+                                    <use href="./image/icon/icon.svg#icon-phone"></use>
+                                </svg>
+                            </label>
+                            <input class="contact-form__input" type="tel" name="tel" id="tel" placeholder="Your phone"
+                                pattern="\+380[0-9]{9}" title="Введіть номер у форматі +380 та 9 цифр" minlength="13"
+                                maxlength="13" required>
+                        </div>
+                        <div class="contact-form__item">
+                            <label class="contact-form__ladel" for="email">
+                                <svg class="icon-person">
+                                    <use href="./image/icon/icon.svg#icon-untitled"></use>
+                                </svg>
+                            </label>
+                            <input class="contact-form__input" type="email" name="email" id="email"
+                                placeholder="Your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                                required>
+                        </div>
+                        <div>
+                            <button class="contact-form__butten button__main" type="submit">Explore More</button>
+
+                            <label class="checkbox" for="privacy-policy">
+                                <input class="checkbox__item" type="checkbox" name="privacy-policy" id="privacy-policy">
+                                <span class="checkbox__text">I agree to the privacy policy</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <svg class="logo__icon">
+                            <use href="./image/icon/icon.svg#icon-logo"></use>
+                        </svg>
+                    </li>
+                    <li class="footer__item footer__social-media">
+                        <svg class="icon-person">
+                            <use href="./image/icon/icon.svg#icon-untitled"></use>
+                        </svg>
+                        <svg class="icon-person">
+                            <use href="./image/icon/icon.svg#icon-untitled"></use>
+                        </svg>
+                    </li>
+                </ul>
+                <ul class="footer__menu">
+                    <li class="footer__item">
+                        <a href="#" class="link">
+                            Less talk
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="link">
+                            Services category
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="link">Happy customer</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="link">Contact</a>
+                    </li>
+                </ul>
+                <ul class="footer__list footer__social-media">
+                    <li class="footer__item">
+                        <svg class="icon-person">
+                            <use href="./image/icon/icon.svg#icon-untitled"></use>
+                        </svg>
+                    </li>
+                    <li class="footer__item">
+                        <svg class="icon-person">
+                            <use href="./image/icon/icon.svg#icon-untitled"></use>
+                        </svg>
+                    </li>
+                </ul>
+
+                <form action="footer-form" class="footer__form">
+                    <div class="contact-form__item">
+                        <label class="contact-form__ladel" for="email">
+                            <svg class="icon-person">
+                                <use href="./image/icon/icon.svg#icon-untitled"></use>
+                            </svg>
+                        </label>
+                        <input class="contact-form__input" type="email" name="email" id="email" placeholder="Your email"
+                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+                    </div>
+                    <div class="contact-form__item">
+                        <label class="contact-form__ladel" for="cmc">
+                        </label>
+                        <textarea class="contact-form__input footer__texterea" type="cmc" name="text" id="cmc"
+                            placeholder="Your cmc" required></textarea>
+                    </div>
+                    <div>
+                        <button class="contact-form__butten button__main" type="submit">Contact us</button>
+
+                        <label class="checkbox" for="privacy-policy">
+                            <input class="checkbox__item" type="checkbox" name="privacy-policy" id="privacy-policy">
+                            <span class="checkbox__text">I agree to the privacy policy</span>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/formats-slider.js"></script>
+    <script src="./js/mobile_menu.js"></script>
+</body>
+
+</html>

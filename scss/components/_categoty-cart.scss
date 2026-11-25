@@ -1,0 +1,23 @@
+.category-cart {
+  width: 240px;
+  height: 240px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-white);
+  box-shadow: var(--shadow-efect-2);
+  border-radius: 16px;
+
+  &__img {
+    width: 96px;
+    height: 96px;
+  }
+
+  &__title {
+    color: var(--primary-orange);
+    font-size: 22px;
+    font-weight: 600;
+  }
+}

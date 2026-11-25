@@ -1,0 +1,22 @@
+@import "./utils/reset";
+@import "./utils/fons";
+@import "./utils/variadles";
+@import "./base";
+
+@import "./utils/utils";
+
+@import "./components/link";
+@import "./components/button";
+@import "./components/icon";
+@import "./components/categoty-cart";
+@import "./components/reviews-cart";
+@import "./components/contact-form";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/burger";
+@import "./layout/call";
+@import "./layout/category-section";
+@import "./layout/reviews";
+@import "./layout/contact";
+@import "./layout/footer";

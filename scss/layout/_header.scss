@@ -1,0 +1,51 @@
+.header {
+  padding-top: 16px;
+
+  @media screen and (min-width: $md) {
+    padding-top: 32px;
+  }
+
+  &__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu {
+    display: none;
+
+    @media screen and (min-width: $md) {
+      display: block;
+    }
+  }
+  &__list {
+    display: flex;
+    gap: 24px;
+
+    @media screen and (min-width: $xl) {
+      gap: 48px;
+    }
+  }
+
+  &__button-menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__contact-btn {
+    display: none;
+
+    @media screen and (min-width: $md) {
+      display: block;
+    }
+  }
+
+  &__burger {
+    display: block;
+
+    @media screen and (min-width: $md) {
+      display: none;
+    }
+  }
+}

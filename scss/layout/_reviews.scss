@@ -1,0 +1,27 @@
+.reviews {
+  margin-bottom: 72px;
+  @media screen and (min-width: $md) {
+    margin-bottom: 168px;
+  }
+  &__slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  &__container {
+    overflow: hidden;
+  }
+  &__list {
+    display: flex;
+  }
+
+  &__button {
+    display: none;
+
+    @media screen and (min-width: $md) {
+      display: flex;
+    }
+  }
+}
